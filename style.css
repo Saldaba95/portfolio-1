@@ -13,8 +13,9 @@ h6 {
   font-weight: bold;
 }
 h6 {
-  margin: 15px auto;
+  text-align: center;
   font-weight: lighter;
+  margin-bottom: 100px;
 }
 .hero h1 {
   font-size: 85px;
