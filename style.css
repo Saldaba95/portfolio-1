@@ -15,7 +15,7 @@ h6 {
 h6 {
   text-align: center;
   font-weight: lighter;
-  margin-bottom: 100px;
+  padding: 30px 15px;
 }
 .hero h1 {
   font-size: 85px;
@@ -27,4 +27,22 @@ h6 {
   font-size: 16px;
   padding: 7px 12px;
   margin: 45px auto;
+}
+.project-des,
+.pro-des,
+.pro-desc {
+  padding: 100px 50px;
+}
+@media (max-widt: 900px) {
+  h1 {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .project-des,
+  .pro-des,
+  .pro-desc {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
 }
