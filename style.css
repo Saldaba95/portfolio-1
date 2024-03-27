@@ -1,16 +1,39 @@
+body {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .hero {
   background: black;
   text-align: center;
 }
+.about {
+  background: linear-gradient(
+    109.6deg,
+    rgb(9, 9, 121) 11.2%,
+    rgb(144, 6, 161) 53.7%,
+    rgb(0, 212, 255) 100.2%
+  );
+}
 h1,
-p,
+h2,
+h3,
+h4,
 h5,
 h6 {
   color: aliceblue;
 }
 .hero p {
-  font-size: 36px;
+  font-size: 47px;
   font-weight: bold;
+  color: cornflowerblue;
+}
+.about h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.about h2 {
+  font-size: 45px;
 }
 h6 {
   text-align: center;
@@ -21,12 +44,37 @@ h6 {
   font-size: 85px;
   font-weight: bold;
 }
+.main {
+  background: radial-gradient(
+    780px at 37.8% 100.3%,
+    rgb(19, 55, 115) 2.2%,
+    rgb(32, 7, 80) 20.2%,
+    rgb(27, 88, 111) 58.6%,
+    rgb(115, 88, 44) 75%,
+    rgb(99, 19, 90) 89.6%,
+    rgb(12, 51, 76) 96.1%
+  );
+}
 .btn {
-  background-color: #cca8e9;
-  color: aliceblue;
-  font-size: 16px;
-  padding: 7px 12px;
-  margin: 45px auto;
+  background: darkslategrey;
+  font-size: 19px;
+  padding: 8px 18px;
+  margin: 40px auto;
+}
+.details p {
+  text-align: center;
+  padding: 25px auto;
+  margin: 10px;
+  font-size: 25px;
+  background: lightsteelblue;
+  color: black;
+  border-radius: 4px;
+}
+.project-des p,
+.pro-des p,
+.pro-desc p {
+  background: lightblue;
+  border-radius: 5px;
 }
 .project-des,
 .pro-des,
