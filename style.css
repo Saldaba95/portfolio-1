@@ -81,8 +81,13 @@ h6 {
 }
 .info p {
   color: aliceblue;
-  padding: 20px 45px;
-  margin: 15px auto;
+  padding: 10px 30px;
+  margin: 10px auto;
+  font-size: 22px;
+}
+.info img {
+  padding: 25px;
+  border-radius: 35px;
 }
 .project-des p,
 .pro-des p,
