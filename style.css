@@ -15,6 +15,15 @@ body {
     rgb(0, 212, 255) 100.2%
   );
 }
+.info {
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -70,6 +79,11 @@ h6 {
   color: black;
   border-radius: 4px;
 }
+.info p {
+  color: aliceblue;
+  padding: 20px 45px;
+  margin: 15px auto;
+}
 .project-des p,
 .pro-des p,
 .pro-desc p {
@@ -92,5 +106,8 @@ h6 {
     text-align: center;
     padding: 0;
     margin: 0;
+  }
+  .info div {
+    column-gap: nones;
   }
 }
