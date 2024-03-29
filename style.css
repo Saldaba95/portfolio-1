@@ -95,6 +95,17 @@ h6 {
   background: lightblue;
   border-radius: 5px;
 }
+.links {
+  background: linear-gradient(
+    91.3deg,
+    rgb(135, 174, 220) 1.5%,
+    rgb(255, 255, 255) 100.3%
+  );
+}
+.contact h1,
+h3 {
+  color: black;
+}
 .project-des,
 .pro-des,
 .pro-desc {
