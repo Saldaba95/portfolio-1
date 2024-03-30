@@ -124,6 +124,10 @@ footer .contact-box {
 footer .title-box h1 {
   font-size: 40px;
 }
+footer p {
+  text-align: center;
+  color: aliceblue;
+}
 
 footer .email-link {
   text-decoration: none;
