@@ -96,20 +96,53 @@ h6 {
   border-radius: 5px;
 }
 .links {
-  background: linear-gradient(
-    91.3deg,
-    rgb(135, 174, 220) 1.5%,
-    rgb(255, 255, 255) 100.3%
+  background: radial-gradient(
+    circle at 11.7% 80.6%,
+    rgb(249, 185, 255) 0%,
+    rgb(177, 172, 255) 49.3%,
+    rgb(98, 203, 255) 89%
   );
 }
 .contact h1,
-h3 {
-  color: black;
+.contact h3 {
+  font-size: 37px;
+  line-height: 70px;
 }
 .project-des,
 .pro-des,
 .pro-desc {
   padding: 100px 50px;
+}
+footer {
+  padding: 35px;
+  line-height: 85px;
+}
+
+footer .contact-box {
+  background: black;
+  color: aliceblue;
+  border-radius: 7px;
+  padding: 35px;
+}
+footer .title-box h1 {
+  font-size: 40px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+}
+footer .social-links a {
+  margin: 0 18px;
+  color: black;
+  background: azure;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+footer .email-link:hover {
+  color: cornflowerblue;
 }
 @media (max-widt: 900px) {
   h1 {
