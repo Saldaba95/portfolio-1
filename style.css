@@ -93,7 +93,8 @@ h6 {
 .pro-des p,
 .pro-desc p {
   background: lightblue;
-  border-radius: 5px;
+  border-radius: 3px;
+  padding: 12px 10px;
 }
 .links {
   background: radial-gradient(
@@ -108,11 +109,7 @@ h6 {
   font-size: 37px;
   line-height: 70px;
 }
-.project-des,
-.pro-des,
-.pro-desc {
-  padding: 100px 50px;
-}
+
 footer {
   padding: 35px;
   line-height: 85px;
@@ -149,13 +146,7 @@ footer .email-link:hover {
     font-size: 10px;
     line-height: 2;
   }
-  .project-des,
-  .pro-des,
-  .pro-desc {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
+
   .info div {
     column-gap: nones;
   }

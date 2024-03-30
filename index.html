@@ -25,31 +25,45 @@
       src="https://kit.fontawesome.com/0a8c21cff1.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Sarei is a front-end apprentice develper based in USA"
+    />
     <title>SA-My-Portfolio</title>
   </head>
   <body>
     <div>
       <ul class="nav nav-pills bg-dark fixed-top">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="/"
+            title="Homepage"
+            >Home</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About Me</a>
+          <a class="nav-link" href="about.html" title="About me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="info.html">Projects</a>
+          <a class="nav-link" href="info.html" title="my projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Stay Connected</a>
+          <a class="nav-link" href="contact.html" title="contacts"
+            >Stay Connected</a
+          >
         </li>
       </ul>
     </div>
     <div class="hero">
       <p class="mt-4 p-5">Hello 👋🏼 I am</p>
       <h1>Sarei 🩶 Aldaba</h1>
-      <h5>Frontend Developer, based in USA</h5>
+      <h5>Front-end Developer, based in USA</h5>
       <div>
-        <button class="btn btn-dark"><a href="#start">Get Started</a></button>
+        <button class="btn btn-dark">
+          <a href="#start" title="Projects">Get Started</a>
+        </button>
       </div>
     </div>
     <div class="main">
@@ -58,73 +72,64 @@
         what I've been working on. Here are some of my porjects I decided to
         showcase.
       </h6>
-      <div class="row mb-3" id="start">
-        <div class="col-lg-6">
-          <div class="project-des">
-            <h2 class="text-center">French Poem</h2>
-            <p>
-              Check out this amazing French Poem. I was able to desine this
-              application with the help of AI. Launch the application and give
-              it a go. Enter anything related to France and submit your answer.
-            </p>
-            <button class="btn btn-dark">
-              <a
-                href="https://generator-for-french-ai-poam.netlify.app/"
-                target="_blank"
-              >
-                Launch</a
-              >
-            </button>
-          </div>
+      <div class="d-flex justify-content-between text-center" id="start">
+        <div class="project-des">
+          <h2 class="">French Poem</h2>
+          <p class="m-3">
+            Check out this amazing French Poem. I was able to desine this
+            application with the help of AI. Launch the application and give it
+            a go. Enter anything related to France and submit your answer.
+          </p>
+          <button class="btn btn-dark">
+            <a
+              href="https://generator-for-french-ai-poam.netlify.app/"
+              target="_blank"
+              title=""
+            >
+              Launch</a
+            >
+          </button>
         </div>
-        <div class="col-lg-6">
-          <img src="images/poem.png" class="img-fluid p-3" alt="french poem" />
-        </div>
-      </div>
-      <div class="row mb-3">
-        <div class="col-lg-6">
-          <img
-            src="images/forecast.png"
-            class="img-fluid p-3"
-            alt="weather app"
-          />
-        </div>
-        <div class="col-lg-6">
-          <div class="pro-des">
-            <h2 class="text-center">Forecast Project</h2>
-            <p>
-              Let's see if we can track your local weater for the week. With the
-              help SheCodes AI I was albe to created this basic application.
-            </p>
-            <button class="btn btn-dark">
-              <a href="https://my-daily-forecast.netlify.app/" target="_blank"
-                >Launch</a
-              >
-            </button>
-          </div>
+        <div class="d-none d-md-flex m-4 p-3">
+          <img src="images/poem.png" class="img-fluid" alt="french poem" />
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="pro-desc">
-            <h2 class="text-center">Time Tracker</h2>
-            <p>
-              This a really basic application that can look up time depending on
-              the Information I was able obtain from SheCodes AIP and URL keys
-            </p>
-            <button class="btn btn-dark">
-              <a
-                href="https://world-clock-sa-js-project.netlify.app/"
-                target="_blank"
-                >Launch</a
-              >
-            </button>
-          </div>
+      <div class="d-flex flex-nowrap justify-content-between text-center">
+        <div class="pro-des order-2">
+          <h2>Forecast Project</h2>
+          <p class="m-3">
+            Let's see if we can track your local weater for the week. With the
+            help SheCodes AI I was albe to created this basic application.
+          </p>
+          <button class="btn btn-dark">
+            <a href="https://my-daily-forecast.netlify.app/" target="_blank"
+              >Launch</a
+            >
+          </button>
         </div>
-        <div class="col-lg-6">
+        <div class="order-1 d-none d-md-flex m-3 p-3">
+          <img src="images/forecast.png" class="img-fluid" alt="weather app" />
+        </div>
+      </div>
+      <div class="d-flex justify-content-between text-center">
+        <div class="pro-desc">
+          <h2>Time Tracker</h2>
+          <p class="m-3">
+            This a really basic application that can look up time depending on
+            the Information I was able obtain from SheCodes AIP and URL keys
+          </p>
+          <button class="btn btn-dark">
+            <a
+              href="https://world-clock-sa-js-project.netlify.app/"
+              target="_blank"
+              >Launch</a
+            >
+          </button>
+        </div>
+        <div>
           <img
             src="images/time.png"
-            class="img-fluid p-3 mb-4"
+            class="img-fluid d-none d-md-flex m-2 p-3"
             alt="time tracker"
           />
         </div>
@@ -141,7 +146,6 @@
             <a href="" class="btn btn-info btn-branding">Contact me.</a>
           </div>
         </div>
-
         <div class="text-center">
           <a href="mailto:aldaba.sarei1995@gmail.com" class="email-link"
             >aldaba.sarei1995@gmail.com</a
