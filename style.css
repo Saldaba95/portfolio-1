@@ -152,6 +152,6 @@ footer .email-link:hover {
   }
 
   .info div {
-    column-gap: nones;
+    column-gap: none;
   }
 }
