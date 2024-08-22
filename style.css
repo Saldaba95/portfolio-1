@@ -38,6 +38,33 @@ h6 {
   padding-top: 60px;
   text-align: center;
 }
+
+.experience-PTU {
+  color: blue;
+}
+.ex-service-tech {
+  color: blue;
+}
+.ex-basic-tech {
+  color: blue;
+}
+.ex-pharm-tech {
+  color: blue;
+}
+
+.edu-SJVC {
+  color: blue;
+}
+.edu-shecodes {
+  color: blue;
+}
+.skills-heading {
+  color: blue;
+}
+.reference-info {
+  color: blue;
+}
+
 .hero p {
   font-size: 47px;
   font-weight: bold;
