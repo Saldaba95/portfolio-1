@@ -146,6 +146,9 @@ h6 {
     rgb(98, 203, 255) 89%
   );
 }
+.contact-heading {
+  padding-top: 100px;
+}
 .contact h1,
 .contact h3 {
   font-size: 37px;
@@ -170,11 +173,14 @@ footer p {
   text-align: center;
   color: aliceblue;
 }
-
+.resume-background {
+  background: black;
+}
 .resume-body {
   max-width: 600px;
   padding: 30px 15px;
   background: lightgray;
+  margin: 30px auto;
 }
 footer .email-link {
   text-decoration: none;
