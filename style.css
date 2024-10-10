@@ -176,64 +176,92 @@ footer p {
 .resume-background {
   background: black;
 }
+
 .resume-body {
   color: black;
-
   padding: 20px 25px;
-  background: lightgray;
+  background: darkkhaki;
   margin: 30px auto;
-}
-.resume-heading {
-  max-width: 600px;
-  display: flex;
-  justify-content: flex-start;
-  border-radius: 8px;
-  background: lightgoldenrodyellow;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
+.resume-heading {
+  max-width: 900px;
+  text-align: center;
+  border-radius: 8px;
+  background: azure;
+  margin: 10px auto;
+}
+.address {
+  color: darkolivegreen;
+}
+.address a {
+  color: darkolivegreen;
+}
 .education {
-  background: lightblue;
+  background: azure;
+  border-radius: 8px;
+  margin: 10px auto;
+  text-align: left;
 }
 .PTU {
   max-width: 600px;
   border-radius: 8px;
-  background: lightyellow;
+  background: azure;
+  margin: 10px auto;
+  text-align: left;
 }
 .service {
   max-width: 600px;
   border-radius: 8px;
-  background: lightcyan;
+  background: azure;
+  margin: 10px auto;
+  text-align: left;
 }
 .basic {
   max-width: 600px;
   border-radius: 8px;
-  background: lightpink;
+  background: azure;
+  margin: 10px auto;
+  text-align: left;
 }
 .palmdale {
   max-width: 600px;
   border-radius: 8px;
-  background: lightgreen;
+  background: azure;
+  margin: 10px auto;
+  text-align: left;
 }
 
 .skills {
   max-width: 400px;
   border-radius: 8px;
-  background: lightpink;
+  background: azure;
+  margin: 10px auto;
+  text-align: left;
 }
 .text-decoration-none {
   color: black;
 }
 .Reference {
-  max-width: 400px;
+  max-width: 600px;
+  padding: 10px 15px;
   border-radius: 8px;
-  background: violet;
+  background: azure;
   line-height: 40px;
+  margin: 10px auto;
 }
 
 footer .email-link {
   text-decoration: none;
   color: aliceblue;
   font-size: 25px;
+  display: block;
 }
 footer .social-links a {
   margin: 0 18px;
