@@ -204,6 +204,7 @@ footer p {
   color: darkolivegreen;
 }
 .education {
+  max-width: 700px;
   background: azure;
   border-radius: 8px;
   margin: 10px auto;
